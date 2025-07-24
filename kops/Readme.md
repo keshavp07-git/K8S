@@ -118,12 +118,11 @@
 1. **Download Kops Binary**
 
     - Run the following command to download the latest Kops binary:
-      ```sh
+       ```sh
       curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
       chmod +x kubectl
       sudo mv kubectl /usr/local/bin/
-     ```
-     
+      ```
 2. **Install kubectl**
    
     - Download the latest `kubectl` binary:
