@@ -114,7 +114,9 @@
         ```
     > **Tip:** Use the public key (`id_rsa.pub`) to configure access to other servers or services as needed.
 ## Installing Kops on the EC2 Instance
+
 1. **Download Kops Binary**
+
     - Run the following command to download the latest Kops binary:
       ```sh
       curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
@@ -122,13 +124,12 @@
       sudo mv kubectl /usr/local/bin/
      ```
      
-3. **Install kubectl**
+2. **Install kubectl**
+   
     - Download the latest `kubectl` binary:
       ```sh
       curl -LO "https://dl.k8s.io/release/$(curl -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-      
       chmod +x kubectl
-      
       sudo mv kubectl /usr/local/bin/
       ```
       > **Note:** If you prefer to install `kubectl` using a package manager, you can use the following command:
